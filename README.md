@@ -1,6 +1,6 @@
 # HamiltonLearning
 A repository to test how Hamiltonian and Lagrangian functions might be used to imrove performance of learning algorithms in certain areas.
 
-Looking at for instance an instance of contrastive learning where the update function behaves as follows:
+Combining features found in normal training with additional variables that can be incorporated in a Hamiltonian or Lagrangian function might be very useful in some situations.
 
-$$\L_(sup_contrast​) \leq i∈B∑​∣P(i)∣−1​p∈P(i)\log∑a∈B{i}\​exp(zi​⋅za​/τ)\exp(zi​⋅zp​/τ)​\]$$
+This repository aims to see, how well this idea actually works in hopefully several instances.
